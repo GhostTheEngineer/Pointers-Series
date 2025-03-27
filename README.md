@@ -39,27 +39,25 @@ By the end of this series, you'll have a **full understanding of pointers**, how
 - Common **errors and pitfalls** when using raw pointers.  
 - Examples of **undefined behavior**, **memory leaks**, and **segmentation faults**.  
 
-📌 **Files in `part_3_pitfalls_exceptions/src/`**
-- 
+📌 **Files in `part_3_pitfalls/src/`**
+- `i1_uninitialized_pointer.cpp`
+- `i2_nullptr_dereference.cpp`
+- `i3_returning_stack_pointer.cpp`
+- `i4_memory_leak.cpp`
+- `i5_dangling_pointer.cpp`
+- `i6_double_delete.cpp`
+- `i7_stack_pointer_delete.cpp`
+- `i8_mismatched_delete.cpp`
+- `i9_pointer_arithmetic.cpp`
 
 ---
 
-### **4️⃣ Smart Pointers and RAII**
+### **4️⃣ Smart Pointers, RAII and Implementing Smart Pointers**
 📌 **Overview:**  
 - Why **raw pointers should be avoided** in modern C++.  
 - Understanding **RAII (Resource Acquisition Is Initialization)**.  
-- Deep dive into **`std::unique_ptr`, `std::shared_ptr`, and `std::weak_ptr`**.  
-
----
-
-### **5️⃣ Implementing a Smart Pointer**
-📌 **Overview:**  
-- **How smart pointers work internally**.  
-- Implementing a **custom smart pointer class**.  
-- Comparison with **standard smart pointers**.  
-
-📌 **Files in `part_5_smart_pointer_impl/src/`**
-- 
+- Deep dive into **`std::unique_ptr`, `std::shared_ptr`, and `std::weak_ptr`**. 
+- Implementation examples. 
 
 ---
 
